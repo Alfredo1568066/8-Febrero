@@ -1,0 +1,109 @@
+// Alfredo Aranda Mancillas
+// 1568066     N5 Percepcion
+// Tarea 3
+var num;
+
+
+function setup() {
+ createCanvas(400, 400);
+ background(250,0,33);
+ rect(125,125,150,150);
+ num=int(random(1,7));
+}
+
+function draw(){
+	if(mouseIsPressed){
+if(num==1){
+  uno(); 
+}
+if(num==2){
+  dos(); 
+}
+  if(num==3){
+  tres(); 
+}
+  if(num==4){
+  cuatro(); 
+}
+  if(num==5){
+  cinco(); 
+}
+  if(num==6){
+  seis(); 
+  }
+}
+}
+
+function uno(){
+
+fill(0);
+  
+ellipse(200,200,15,15);
+
+}
+
+function dos(){
+
+fill(0);
+  
+ellipse(150,250,15,15);
+  
+ellipse(250,150,15,15);
+  }
+
+
+function tres(){
+  
+  fill(0);
+  
+ellipse(150,250,15,15);
+  
+ellipse(250,150,15,15);
+  
+ellipse(200,200,15,15);
+}
+
+function cuatro(){
+ 
+fill(0);
+  
+ellipse(150,250,15,15);
+  
+ellipse(250,150,15,15);
+  
+ellipse(250,250,15,15);
+  
+ellipse(150,150,15,15);
+}
+
+
+function cinco(){
+  
+fill(0);
+  
+ellipse(150,250,15,15);
+  
+ellipse(250,150,15,15);
+  
+ellipse(250,250,15,15);
+  
+ellipse(150,150,15,15);
+ellipse(200,200,15,15);
+}
+
+
+function seis(){
+  
+fill(0);
+  
+ellipse(150,250,15,15);
+  
+ellipse(250,150,15,15);
+  
+ellipse(250,250,15,15);
+  
+ellipse(150,150,15,15);
+ellipse(150,200,15,15);
+ 
+ellipse(250,200,15,15);
+}
